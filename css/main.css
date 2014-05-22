@@ -1,0 +1,32 @@
+.fullsection-withbgimg {
+  width:100vw;
+  height: 50vw;
+  background-image: url(../img/sky.jpg)
+}
+
+/* Utility */
+
+.wrap-header:before,
+.wrap-header:after { content:""; display:table; }
+.wrap-header:after { clear: both; }
+.wrap-header {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+.big-title{
+    font-size:20vw;
+    color:white;
+}
+
+.custom-title{
+    font-size:50px;
+    color:white;
+}
+
+.custom-subtitle{
+    font-size:20px;
+    color:white;
+}
