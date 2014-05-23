@@ -1,5 +1,7 @@
 
 
+/
+
 /* Utility */
 
 .wrap-header:before,
@@ -38,19 +40,22 @@
 	
 #start-page{
     background-image: url(../img/sky.jpg);
-    background-size:Auto 100vw;
+    background-size:100vw 100em;
+    background-repeat:no-repeat;
 }
 
 #we-will-wait{
-    background-color:teal;
+    background-color:#F5F6CE;
 }
 
 #infoclass-slide{
     background-image: url(../img/infotime.jpg);
-    background-size:Auto 100vw;
+    background-size:100vw 100em;
+    background-repeat:no-repeat;
 }
 
 #classroom-slide{
-					background-image: url(../img/classroom.jpg);
-					background-size:Auto 100vw;
+	background-image: url(../img/classroom.jpg);
+	background-size:100vw 100em;
+	background-repeat:no-repeat;
 }
