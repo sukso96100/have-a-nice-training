@@ -9,15 +9,33 @@
     <title>연수 잘 다녀오세요!</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.easings.min.js"></script>  
+    <script type="text/javascript" src="scripts/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+    
+        $(document).ready(function() {
+    $('#fullpage').fullpage();
+});
+    </script>
   </head>
 
   <body>
-    <div class="fullsection-withbgimg">
-      <h1>title</h1>
+    <div id="fullpage">
+    
+    <div class="section">
+    <div align="center">
+    Some section
+        </div>
     </div>
-
+    
+    <div class="section">Some section</div>
+    <div class="section">Some section</div>
+    <div class="section">Some section</div>
+</div>
+    
   </body>
 </html>
