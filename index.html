@@ -12,11 +12,11 @@
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.easings.min.js"></script>  
+    <script type="text/javascript" src="scripts/jquery.easings.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.slimscroll.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.fullPage.js"></script>
     <script type="text/javascript">
-    
+
         $(document).ready(function() {
     $('#fullpage').fullpage();
 });
@@ -25,7 +25,7 @@
 
   <body>
     <div id="fullpage">
-    
+
     <!--제목 페이지-->
     <div class="section" id="start-page">
     <div align="center">
@@ -46,48 +46,104 @@
     </font>
         </div>
     </div>
-    
+
     <div class="section">
         <div class="slide" id="we-will-wait">
             <div align="center">
-                <font size="15vw" color="white">
+                <font size="15vw">
         저희는 기다리고 있겠습니다.
                 </font><br><br>
-                    <font size="5vw" color="white">
+                    <font size="5vw">
                         <i class="fa fa-users"></i>
                         <i class="fa fa-heart"></i>
                         <i class="fa fa-spinner"></i>
                     </font>
             </div>
         </div>
-        
+
         <div class="slide" id="infoclass-slide">
             <div align="center">
-            <font size="15vw" color="white">
+            <font size="15vw" color="#D8D8D8">
         <i class="fa fa-laptop"></i>
         <i class="fa fa-keyboard-o"></i>
         <i class="fa fa-terminal"></i>
          </font>
             </div>
         </div>
-    
-    <div class="slide" id="classroom-slide">
+
+        <div class="slide" id="classroom-slide">
             <div align="center">
-        Slide 1 
+         <font size="15vw" color="#D8D8D8">
+       <i class="fa fa-book"></i>
+        <i class="fa fa-comments"></i>
+   <i class="fa fa-pencil-square-o"></i>
+         </font>
             </div>
         </div>
-        
-        <div class="slide">
-            <div align="center">
-        Slide 1 
-            </div>
-        </div>
-    
-    
+
     </div>
-    <div class="section">Some section</div>
-    <div class="section">Some section</div>
+    <div class="section">
+      <div class="slide" id="rolling-paper-slide">
+      <div align="center">
+          <font size="15vw">
+  롤링페이어!
+          </font><br><br>
+              <font size="5vw">
+                  <i class="fa fa-file-text"></i>
+                  <i class="fa fa-users"></i>
+                  <i class="fa fa-paper-plane-o"></i>
+                  <i class="fa fa-heart"></i>
+              </font>
+      </div>
+  </div>
+
+  <div class="slide" id=beige>
+    <div align="center">
+    <img src="img/rp1.jpeg">
+</div></div>
+
+<div class="slide" id=beige>
+  <div align="center">
+<img src="img/rp2.jpeg">
+</div></div>
+
+
 </div>
+
+    <div class="section" id="freeboard">
+    <div align="center">
+  <font size="15vw">
+남기고 싶은 말이 있나요?
+  </font><br><br>
+      <font size="5vw">
+          <i class="fa fa-file-text"></i>
+          <i class="fa fa-users"></i>
+          <i class="fa fa-paper-plane-o"></i>
+          <i class="fa fa-heart"></i>
+          <i class="fa fa-quote-right"></i>
+      </font>
+      <br><br>
+
+        <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'pwktraining'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
+
+
+  </div>
+</div>
+</div>
+
   </body>
 </html>

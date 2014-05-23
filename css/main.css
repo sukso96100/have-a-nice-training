@@ -37,7 +37,7 @@
 		position: relative;
 		background-color:green;
 	}
-	
+
 #start-page{
     background-image: url(../img/sky.jpg);
     background-size:100vw 100em;
@@ -46,6 +46,10 @@
 
 #we-will-wait{
     background-color:#F5F6CE;
+}
+
+#beige{
+  background-color:#F5F6CE;
 }
 
 #infoclass-slide{
@@ -58,4 +62,14 @@
 	background-image: url(../img/classroom.jpg);
 	background-size:100vw 100em;
 	background-repeat:no-repeat;
+}
+
+#rolling-paper-slide{
+  background-image: url(../img/rp1.jpeg);
+  background-size:100vw 100vw;
+  background-repeat:no-repeat;
+}
+
+#freeboard{
+  background-color:#2980b9;
 }
