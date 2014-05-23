@@ -1,8 +1,4 @@
-.fullsection-withbgimg {
-  width:100vw;
-  height: 50vw;
-  background-image: url(../img/sky.jpg)
-}
+
 
 /* Utility */
 
@@ -39,3 +35,7 @@
 		position: relative;
 		background-color:green;
 	}
+	
+#start-page{
+    background-image: url(../img/sky.jpg);
+}
