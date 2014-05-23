@@ -38,6 +38,7 @@
 	
 #start-page{
     background-image: url(../img/sky.jpg);
+    background-size:Auto 100vw;
 }
 
 #we-will-wait{
@@ -46,8 +47,10 @@
 
 #infoclass-slide{
     background-image: url(../img/infotime.jpg);
+    background-size:Auto 100vw;
 }
 
 #classroom-slide{
 					background-image: url(../img/classroom.jpg);
+					background-size:Auto 100vw;
 }
