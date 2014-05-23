@@ -29,15 +29,6 @@
     color:white;
 }
 
-.wrap-section{
-		width: 100%;
-		height: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-		background-color:green;
-	}
-
 #start-page{
     background-image: url(../img/sky.jpg);
     background-size:100vw 100em;
