@@ -15,7 +15,7 @@ function countIt(){
     setTimeout(function(){
     endDate = new Date(year, month, day, hours, minutes, seconds, 00);
     thisDate  = new Date();
-    thisDate  = new Date(thisDate.getFullYear(), thisDate.getMonth() + 1, thisDate.getDay(), thisDate.getHours(), thisDate.getMinutes(), thisDate.getSeconds(), 00, 00);
+    thisDate  = new Date(thisDate.getFullYear(), thisDate.getMonth() + 1, thisDate.getDate(), thisDate.getHours(), thisDate.getMinutes(), thisDate.getSeconds(), 00, 00);
 
     var daysLeft = parseInt((endDate-thisDate)/86400000);
     var hoursLeft = parseInt((endDate-thisDate)/3600000);
