@@ -42,7 +42,7 @@
 	text-align: center;
 }
 .countdown-amount {
-    font-size: 200%;
+    font-size: 10vw;
 }
 .countdown-period {
     display: block;
