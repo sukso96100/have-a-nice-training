@@ -38,6 +38,6 @@ function countIt(){
 }
 
 function startCount(days, hours, minutes, seconds){
-    document.getElementById("counter").innerHTML="DAYS "+days+", HOURS "+hours+", MINUTES "+minutes+", SECONDS: "+seconds;
+    document.getElementById("counter").innerHTML=days+"일 "+hours+"시간 "+minutes+"분 "+seconds+"초";
     countIt();
 }
