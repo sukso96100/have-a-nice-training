@@ -72,6 +72,6 @@
 }
 
 .counter{
-  background-color:#F5F6CE;
-  color:black;
+  background-color:rgba(0,0,0,0.50);
+  color:white;
 }
