@@ -1,0 +1,71 @@
+
+
+/
+
+/* Utility */
+
+.wrap-header:before,
+.wrap-header:after { content:""; display:table; }
+.wrap-header:after { clear: both; }
+.wrap-header {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+.big-title{
+    font-size:20vw;
+    color:white;
+}
+
+.custom-title{
+    font-size:50px;
+    color:white;
+}
+
+.custom-subtitle{
+    font-size:20px;
+    color:white;
+}
+
+#start-page{
+    background-image: url(../img/sky.jpg);
+    background-size:100vw 100em;
+    background-repeat:no-repeat;
+}
+
+#we-will-wait{
+    background-color:#F5F6CE;
+}
+
+#beige{
+  background-color:#F5F6CE;
+}
+
+#infoclass-slide{
+    background-image: url(../img/infotime.jpg);
+    background-size:100vw 100em;
+    background-repeat:no-repeat;
+}
+
+#classroom-slide{
+	background-image: url(../img/classroom.jpg);
+	background-size:100vw 100em;
+	background-repeat:no-repeat;
+}
+
+#rolling-paper-slide{
+  background-image: url(../img/rp1.jpeg);
+  background-size:100vw 100em;
+  background-repeat:no-repeat;
+}
+
+#freeboard{
+  background-color:#2980b9;
+}
+
+.counter{
+  background-color:#F5F6CE;
+  color:black;
+}
