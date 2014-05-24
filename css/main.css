@@ -65,6 +65,12 @@
   background-color:#2980b9;
 }
 
+#timer{
+  background-image: url(../img/timer.jpg);
+  background-size:100vw 100em;
+  background-repeat:no-repea
+}
+
 .counter{
   background-color:#F5F6CE;
   color:black;

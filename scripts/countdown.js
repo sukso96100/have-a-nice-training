@@ -5,10 +5,10 @@
 countIt();
 
 function countIt(){
-    year = 2015;
-    month = 05;
-    day = 28;
-    hours = 12;
+    year = 2014;
+    month = 06;
+    day = 18;
+    hours = 07;
     minutes = 00;
     seconds = 00;
 
