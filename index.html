@@ -10,17 +10,25 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css">
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.easings.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.slimscroll.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="scripts/countdown.js"></script>
+    <script type="text/javascript" src="scripts/jquery.plugin.js"></script>
+    <script type="text/javascript" src="scripts/jquery.countdown.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
     $('#fullpage').fullpage();
 });
     </script>
+    <script type="text/javascript">
+$(function () {
+	var austDay = new Date(2014, 06-1, 21)
+	$('#defaultCountdown').countdown({until: austDay, compact: true});
+});
+</script>
   </head>
 
   <body>
@@ -86,7 +94,7 @@
       <div class="slide" id="rolling-paper-slide">
       <div align="center">
           <font size="15vw">
-  롤링페이어!
+  롤링페이퍼!
           </font><br><br>
               <font size="5vw">
                   <i class="fa fa-file-text"></i>
@@ -111,12 +119,17 @@
 </div>
 
 <!-- 카운트다운 -->
-<div class="section">
+<div class="section" id="timer">
   <div align="center">
-    박웅규 선생님 복귀까지 남은시간<br>
-    <font size="15vw">
+    <font size="6vw">
+    <p class="counter">박웅규 선생님 복귀까지 남은시간<br>
+    <i class="fa fa-bell"></i>
+    <i class="fa fa-clock-o"></i>
+    <i class="fa fa-spinner"></i></p>
+  </font>
+    <font size="10vw">
     <br>
-   <div id="counter"></div>
+<div id="defaultCountdown"></div>
  </font>
  </div>
    </div>
@@ -151,7 +164,6 @@
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
-<br><a href="https://github.com/sukso96100/have-a-nice-training"><i class="fa fa-code"></i> 이 웹사이트 소스코드 얻기</a>
   </div>
 </div>
 
