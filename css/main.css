@@ -57,7 +57,7 @@
 
 #rolling-paper-slide{
   background-image: url(../img/rp1.jpeg);
-  background-size:100vw 100vw;
+  background-size:100vw 100em;
   background-repeat:no-repeat;
 }
 
