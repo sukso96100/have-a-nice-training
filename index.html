@@ -10,17 +10,25 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css">
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.easings.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.slimscroll.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="scripts/countdown.js"></script>
+    <script type="text/javascript" src="scripts/jquery.plugin.js"></script>
+    <script type="text/javascript" src="scripts/jquery.countdown.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
     $('#fullpage').fullpage();
 });
     </script>
+    <script type="text/javascript">
+$(function () {
+	var austDay = new Date(2014, 06-1, 21)
+	$('#defaultCountdown').countdown({until: austDay});
+});
+</script>
   </head>
 
   <body>
@@ -121,7 +129,9 @@
   </font>
     <font size="15vw">
     <br>
-   <div id="counter" class="counter"></div>
+    <div class="wrap-header">
+<div id="defaultCountdown"></div>
+</div>
  </font>
  </div>
    </div>
